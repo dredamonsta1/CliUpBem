@@ -91,7 +91,6 @@ li {
 
 .container__button {
   position: absolute;
-  display: inline-block;
   margin-left: 500px;
   width: 210px;
   height: 60px;
@@ -101,6 +100,7 @@ li {
   border-radius: 25px;
   font-family: Avenir;
   font-style: normal;
+  letter-spacing: 0.005em;
 }
 
 .container__header {
