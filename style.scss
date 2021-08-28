@@ -79,3 +79,25 @@ li {
     line-height: 88px;
     color: #212353;
 }
+
+.container__paragraph {
+    position: absolute;
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 471px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.container__image {
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: 603px;
+    top: 333px
+}
