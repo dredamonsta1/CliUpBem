@@ -95,20 +95,58 @@ li {
 }
 
 .container__button {
+    display: flex;
+    align-items: center;
     position: absolute;
-    margin-left: 500px;
     width: 210px;
     height: 60px;
     left: 1150px;
     top: 47px;
     border-color: white;
-    font-family: Avenir;
-    font-style: normal;
     
-    letter-spacing: 0.005em;
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
+}
+
+.container__button--span {
+    position: absolute;
+    width: 112px;
+    height: 26px;
+    left: 20px;
+    top: 34px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    
+}
+
+.container__button--back {
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 131px;
+    top: 7px;
+    border: 2px solid #9C69E2;
+    box-sizing: border-box;
+}
+
+.container__button--top {
+    position: absolute;
+    width: 14px;
+    height: 6px;
+    left: 145px;
+    top: 7px;
+    border: 2px solid #9C69E2;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+
 }
 
 .container__header {
