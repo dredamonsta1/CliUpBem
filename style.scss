@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    // position: relative;
+    position: relative;
 
 }
 
@@ -96,18 +96,19 @@ li {
 
 .container__button {
     position: absolute;
-    // display: inline-block;
     margin-left: 500px;
     width: 210px;
     height: 60px;
     left: 1150px;
     top: 47px;
     border-color: white;
-    border-radius: 25px;
     font-family: Avenir;
     font-style: normal;
-
+    
     letter-spacing: 0.005em;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
 }
 
 .container__header {
@@ -117,6 +118,11 @@ li {
 }
 
 .container__h1 {
+    position: absolute;
+    width: 645px;
+    height: 184px;
+    left: 240px;
+    top: 237px;
     display: flex;
     align-items: center;
     font-family: Helvetica;
