@@ -90,10 +90,11 @@ li {
   display: inline;
 }
 
-.container__button {
+.container__button--demo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -109,11 +110,10 @@ li {
   border-radius: 50px;
 }
 
-.container__button--span {
+.container__button--demo {
+  border: none;
   position: absolute;
-  width: 112px;
-  height: 26px;
-  left: 20px;
+  left: 1220px;
   top: 34px;
   font-family: Avenir;
   font-style: normal;
@@ -196,6 +196,17 @@ li {
   font-size: 18px;
   line-height: 160%;
   color: #4B5D68;
+}
+
+.container__button--learn {
+  border: none;
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  left: 240px;
+  top: 641px;
+  background: #9C69E2;
+  border-radius: 50px;
 }
 
 .container__image {
