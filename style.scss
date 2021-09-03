@@ -367,7 +367,7 @@ li {
     transform: rotate(20.72deg);
 }
 
-.twinteyFour {
+.features__twinteyFour {
     position: absolute;
     width: 442px;
     height: 358px;
@@ -379,7 +379,7 @@ li {
     border-radius: 20px;
 }
 
-.twinteyFour__shape {
+.features__twinteyFour__shape {
     position: absolute;
     width: 222.22px;
     height: 129.3px;
@@ -388,4 +388,19 @@ li {
 
     border: 1.5px solid #FFFFFF;
     transform: rotate(45deg);
+}
+
+.features__printOut {
+    position: absolute;
+width: 442px;
+height: 358px;
+left: 328.29px;
+top: 2281px;
+
+/* 4 */
+
+background: #F063B8;
+// opacity: 0.1;
+border-radius: 50px;
+
 }
