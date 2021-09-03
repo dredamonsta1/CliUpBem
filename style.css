@@ -262,7 +262,9 @@ li {
 }
 
 .features {
-  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 1137.28px;
   height: 1026px;
   left: 220px;

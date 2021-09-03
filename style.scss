@@ -263,7 +263,8 @@ li {
 }
 
 .features{
-    position: absolute;
+    // position: absolute;
+    display: flex;
     width: 1137.28px;
     height: 1026px;
     left: 220px;
