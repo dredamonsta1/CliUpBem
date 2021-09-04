@@ -384,4 +384,41 @@ li {
   background: #F063B8;
   border-radius: 50px;
 }
+
+.features__securityCode {
+  position: absolute;
+  width: 442px;
+  height: 358px;
+  left: 915.28px;
+  top: 2281px;
+  /* Blue 2 */
+  background: #2D9CDB;
+  border-radius: 20px;
+}
+
+.container__testimonials {
+  position: absolute;
+  width: 1118px;
+  height: 709px;
+  left: 242px;
+  top: 2789px;
+  /* 4 */
+  background: #F063B8;
+  border-radius: 50px;
+}
+
+.testimonials__testimonialBlock {
+  position: absolute;
+  width: 400px;
+  height: 330px;
+  left: 1000px;
+  top: 3038px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(9.75%, #9C69E2), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(270deg, #9C69E2 9.75%, rgba(255, 255, 255, 0) 100%);
+  /* 3 */
+  border: 1px solid #9C69E2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=style.css.map */
