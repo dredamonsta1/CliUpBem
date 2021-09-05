@@ -226,7 +226,7 @@ li {
     height: 504px;
     left: 251px;
     top: 935px;
-    background: url(./img/image2.png);
+    // background: url(./img/image2.png);
 }
 
 .container__Banner--Heading {
@@ -447,7 +447,7 @@ border-radius: 50px;
 
 
 .testimonials__testimonialBlock {
-    position: absolute;
+    // position: absolute;
 width: 400px;
 height: 330px;
 left: 1000px;
@@ -459,4 +459,135 @@ background: linear-gradient(270deg, #9C69E2 9.75%, rgba(255, 255, 255, 0) 100%);
 border: 1px solid #9C69E2;
 box-sizing: border-box;
 border-radius: 20px;
+}
+
+
+
+
+.container__bottomline {
+    position: absolute;
+width: 1600px;
+height: 2px;
+left: 0px;
+top: 3648px;
+
+/* 3 */
+
+background: #9C69E2;
+opacity: 0.2;
+}
+
+
+.container__footer--header {
+    position: absolute;
+width: 405px;
+height: 52px;
+left: 240px;
+top: 3750px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+/* identical to box height, or 52px */
+
+display: flex;
+align-items: center;
+
+color: #212353;
+
+}
+
+.container__get {
+    position: absolute;
+width: 584px;
+height: 29px;
+left: 240px;
+top: 3822px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+/* 1 */
+
+color: #4B5D68;
+}
+
+.container__requestBtn {
+    position: absolute;
+width: 170px;
+height: 60px;
+left: 947px;
+top: 3771px;
+
+/* 4 */
+
+background: #F063B8;
+border-radius: 50px;
+border: none;
+}
+
+.container__learnMoreBtn {
+    position: absolute;
+width: 210px;
+height: 60px;
+left: 1147px;
+top: 3771px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+border: none;
+}
+
+
+.container__footerLogo--one {
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 240px;
+top: 4016px;
+
+background: #9C69E2;
+border-radius: 20px;
+
+}
+
+.container__footerLogo--two {
+    position: absolute;
+width: 20px;
+height: 35px;
+left: 269px;
+top: 4001px;
+
+background: #F063B8;
+border-radius: 20px;
+
+}
+
+.container__footerData {
+    position: absolute;
+width: 153px;
+height: 30px;
+left: 309px;
+top: 3984px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+/* 2 */
+
+color: #212353;
+
 }
