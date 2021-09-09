@@ -214,7 +214,7 @@ li {
 
 .container__Banner{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     // position: absolute;
     width: 1117px;
@@ -226,15 +226,16 @@ li {
 }
 
 .container__Banner--img2 {
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     // position: relative;
     width: 477px;
     height: 504px;
     left: 251px;
     top: 935px;
     background: url(./img/image2.png);
+    // border: none;
 }
 
 .container__Banner--Heading {
@@ -243,7 +244,7 @@ li {
     width: 475px;
     height: 100px;
     left: 1000px;
-    top: 1028.18px;
+    top: 900.18px;
 
     font-family: Helvetica;
     font-style: normal;
@@ -257,7 +258,7 @@ li {
 }
 
 .container__Banner--Paragraph{
-    align-self: center;
+    align-self: flex-end;
     // position: absolute;
     width: 474px;
     height: 170px;
