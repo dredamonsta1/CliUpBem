@@ -202,16 +202,14 @@ li {
     border-radius: 50px;
 }
 
-// .container__button--learn {
-
-// }
-
 .container__image {
     position: absolute;
     width: 885px;
     height: 468px;
     left: 603px;
-    top: 333px
+    top: 333px;
+    // border: green;
+    // border: 5px;
 }
 
 .container__Banner{
@@ -331,11 +329,14 @@ li {
 
 
 .features__searchData {
+    display: flex;
+    flex-direction: row;
     // position: relative;
     width: 442px;
     height: 358px;
     left: 328.29px;
     top: 1873px;
+    // transform: skew(20deg);
 
     background: #68C9BA;
     // opacity: 0.1;
@@ -362,7 +363,8 @@ li {
     top: 2070.99px;
     z-index: 1000;
 
-    border: 1.5px solid #FFFFFF;
+    // border: 1.5px solid #FFFFFF;
+    // border: rgb(57, 55, 138);
     transform: rotate(-135deg);
 
 }
