@@ -303,7 +303,7 @@ li {
 
     color: #212353;
 
-    z-index: 1000;
+    // z-index: 1000;
 
 }
 
@@ -351,7 +351,7 @@ li {
     height: 211px;
     left: 239px;
     top: 1946px;
-    z-index: 1000;
+    // z-index: 1000;
 
     // background: url(image3.png);
 }
@@ -454,8 +454,61 @@ color: #212353;
     top: 1873px;    
 
     background: #9C69E2;
-    // opacity: 0.1;
+    opacity: 0.1;
     border-radius: 20px;
+}
+
+.features_img4 {
+    position: absolute;
+width: 241px;
+height: 185px;
+left: 813px;
+top: 1944px;
+
+background: url(image4.png);
+// z-index: 1000;
+
+}
+
+.features__twinteyFour__header{
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 1087.28px;
+top: 1922px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+display: flex;
+align-items: center;
+
+color: #212353;
+// z-index: 1000;
+}
+
+.features__twinteyFour__paragraph {
+    position: absolute;
+width: 220px;
+height: 160px;
+left: 1087.28px;
+top: 1992px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* 1 */
+
+color: #4B5D68;
 }
 
 .features__twinteyFour__shape {
