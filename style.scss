@@ -341,7 +341,7 @@ li {
 
     background: #68C9BA;
     opacity: 0.1;
-    border-radius: 50px;
+    border-radius: 50px 50px 50px 50px;
     // z-index: 1000;
 }
 
@@ -532,14 +532,73 @@ color: #4B5D68;
 /* 4 */
 
     background: #F063B8;
-    // opacity: 0.1;
+    opacity: 0.1;
     border-radius: 50px;
 
 }
 
+.printOut__image5 {
+    position: absolute;
+width: 245px;
+height: 181px;
+left: 220px;
+top: 2404px;
+
+background: url(image5.png);
+}
+
+.printOut__header {
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 500.29px;
+top: 2330px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+display: flex;
+align-items: center;
+
+color: #212353;
+
+}
+
+.printOut__paragraph {
+    position: absolute;
+width: 220px;
+height: 160px;
+left: 500.29px;
+top: 2400px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
 
 
+/* 1 */
 
+color: #4B5D68;
+
+}
+
+.printOut__shape {
+    position: absolute;
+width: 68.05px;
+height: 40.21px;
+left: 747.33px;
+top: 2337.83px;
+
+border: 1.5px solid #FFFFFF;
+transform: rotate(150deg);
+}
 
 .features__securityCode{
     position: absolute;
@@ -551,16 +610,73 @@ top: 2281px;
 /* Blue 2 */
 
 background: #2D9CDB;
-// opacity: 0.1;
+opacity: 0.1;
 border-radius: 20px;
 }
 
+.securityCode__img6 {
+    position: absolute;
+width: 230px;
+height: 201px;
+left: 818px;
+top: 2367px;
+
+background: url(image6.png);
+}
+
+.securityCode__header {
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 1087.28px;
+top: 2330px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+display: flex;
+align-items: center;
+
+color: #212353;
 
 
+}
+
+.securityCode__paragraph {
+    position: absolute;
+width: 220px;
+height: 160px;
+left: 1087.28px;
+top: 2400px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
 
 
+/* 1 */
 
+color: #4B5D68;
 
+}
+
+.securityCode__shape {
+    position: absolute;
+width: 323.58px;
+height: 188.28px;
+left: 931.28px;
+top: 2358.75px;
+
+border: 1.5px solid #FFFFFF;
+transform: rotate(-15deg);
+}
 
 
 .container__testimonials {
