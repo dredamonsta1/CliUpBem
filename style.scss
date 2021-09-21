@@ -340,9 +340,23 @@ li {
     // transform: skew(20deg);
 
     background: #68C9BA;
-    opacity: 0.1;
+    // opacity: 0.1;
     border-radius: 50px 50px 50px 50px;
     // z-index: 1000;
+}
+
+.features__searchData--edge {
+    position: absolute;
+width: 442px;
+height: 358px;
+left: 328.29px;
+top: 1873px;
+
+/* 5 */
+transform: skew(-10deg);
+background: #68C9BA;
+opacity: 0.1;
+border-radius: 50px;
 }
 
 .features__image3 {
